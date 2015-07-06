@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A93344C1B4AA24300D16965 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A93344B1B4AA24300D16965 /* TableViewController.m */; };
+		1A9334521B4AB89C00D16965 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9334511B4AB89C00D16965 /* UITableView+FDTemplateLayoutCell.m */; };
+		1A9334571B4AC23300D16965 /* NewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9334551B4AC23300D16965 /* NewCell.xib */; };
+		1A93345A1B4AC25900D16965 /* NewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9334591B4AC25900D16965 /* NewCell.m */; };
 		1AB5A2671B31651400756B0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5A2661B31651400756B0D /* main.m */; };
 		1AB5A26A1B31651400756B0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5A2691B31651400756B0D /* AppDelegate.m */; };
 		1AB5A26D1B31651400756B0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5A26C1B31651400756B0D /* ViewController.m */; };
@@ -37,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A93344A1B4AA24300D16965 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		1A93344B1B4AA24300D16965 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		1A9334501B4AB89C00D16965 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		1A9334511B4AB89C00D16965 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		1A9334551B4AC23300D16965 /* NewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCell.xib; sourceTree = "<group>"; };
+		1A9334581B4AC25900D16965 /* NewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCell.h; sourceTree = "<group>"; };
+		1A9334591B4AC25900D16965 /* NewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCell.m; sourceTree = "<group>"; };
 		1AB5A2611B31651400756B0D /* AutoLayoutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB5A2651B31651400756B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AB5A2661B31651400756B0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -127,6 +138,13 @@
 				1AB5A2641B31651400756B0D /* Supporting Files */,
 				1AB5A2AB1B316DF700756B0D /* UIView+Masonry.h */,
 				1AB5A2AC1B316DF700756B0D /* UIView+Masonry.m */,
+				1A93344A1B4AA24300D16965 /* TableViewController.h */,
+				1A93344B1B4AA24300D16965 /* TableViewController.m */,
+				1A9334501B4AB89C00D16965 /* UITableView+FDTemplateLayoutCell.h */,
+				1A9334511B4AB89C00D16965 /* UITableView+FDTemplateLayoutCell.m */,
+				1A9334581B4AC25900D16965 /* NewCell.h */,
+				1A9334591B4AC25900D16965 /* NewCell.m */,
+				1A9334551B4AC23300D16965 /* NewCell.xib */,
 			);
 			path = AutoLayoutTest;
 			sourceTree = "<group>";
@@ -269,6 +287,7 @@
 			files = (
 				1AB5A2701B31651400756B0D /* Main.storyboard in Resources */,
 				1AB5A2751B31651400756B0D /* LaunchScreen.xib in Resources */,
+				1A9334571B4AC23300D16965 /* NewCell.xib in Resources */,
 				1AB5A2721B31651400756B0D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,10 +307,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AB5A2A91B31654200756B0D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				1A9334521B4AB89C00D16965 /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				1AB5A2A71B31654200756B0D /* MASViewConstraint.m in Sources */,
 				1AB5A2A21B31654200756B0D /* MASCompositeConstraint.m in Sources */,
 				1AB5A2AD1B316DF700756B0D /* UIView+Masonry.m in Sources */,
 				1AB5A2A81B31654200756B0D /* NSArray+MASAdditions.m in Sources */,
+				1A93344C1B4AA24300D16965 /* TableViewController.m in Sources */,
 				1AB5A26D1B31651400756B0D /* ViewController.m in Sources */,
 				1AB5A26A1B31651400756B0D /* AppDelegate.m in Sources */,
 				1AB5A2A51B31654200756B0D /* MASLayoutConstraint.m in Sources */,
@@ -299,6 +320,7 @@
 				1AB5A2AA1B31654200756B0D /* View+MASAdditions.m in Sources */,
 				1AB5A2A61B31654200756B0D /* MASViewAttribute.m in Sources */,
 				1AB5A2A31B31654200756B0D /* MASConstraint.m in Sources */,
+				1A93345A1B4AC25900D16965 /* NewCell.m in Sources */,
 				1AB5A2A41B31654200756B0D /* MASConstraintMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +516,7 @@
 				1AB5A2861B31651400756B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AB5A2871B31651400756B0D /* Build configuration list for PBXNativeTarget "AutoLayoutTestTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +525,7 @@
 				1AB5A2891B31651400756B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
